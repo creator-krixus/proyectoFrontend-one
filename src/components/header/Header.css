@@ -1,0 +1,33 @@
+.Header{
+    height: 500px;
+    background: url('../../images/playa.png');
+    background-size: cover;
+}
+.Header__textos{
+    font-size: 300%;
+    color: #fff;
+    margin-left: 10%;
+}
+.Header__textos-describe{
+    font-size: 100%;
+    padding: 0;
+    margin-left: 10%;
+    color: #fff;
+}
+.Header__lista{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 5%;
+}
+.Header__lista-items{
+    margin: 10px;
+    color: #fff;
+    text-decoration: none;
+} 
+.Header__btn{
+    margin-left: 10%;
+    border-radius: 18px;
+    padding: 7px;
+    border: none;
+}

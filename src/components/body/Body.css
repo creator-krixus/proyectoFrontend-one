@@ -1,0 +1,16 @@
+.Body{
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.Body__titulo{
+    font-size: 50px;
+}
+
+.Body__parrafo{
+    font-size: 17px;
+}
