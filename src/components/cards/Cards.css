@@ -1,0 +1,13 @@
+.Card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.one{
+    margin-top: 50%;
+    width: 150px;
+    height: 150px;
+    border: solid 1px;
+}

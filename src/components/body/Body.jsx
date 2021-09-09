@@ -8,19 +8,18 @@ export default function Body() {
             <section className="Body__info">
                 <h1 className="Body__titulo">Top Reasons to<br /> come to Bali</h1>
                 <p className="Body__parrafo">
-                Lorem ipsum dolor sit, amet consectetur 
-                adipisicing elit. Sunt nihil exercitationem numquam aut optio?<br /> Ducimus 
-                dolores soluta quam autem similique voluptas temporibus unde quasi, nesciunt<br />
-                natus reiciendis expedita laboriosam.
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta, <br />
-                iure. Molestias quod porro molestiae quibusdam odit quaerat illo nihil,<br />
-                dolore assumenda, nesciunt reiciendis sed explicabo laudantium at exercitationem<br />
-                perferendis suscipit?
+                Lorem ipsum dolor sit, amet consectetur <br />
+                adipisicing elit. Sunt nihil exercitationem <br />numquam aut optio? Ducimus <br />
+                dolores quaerat soluta quam  quaerat<br /> similique voluptas temporibus unde quasi, <br />
+                natus reiciendis quaerat adipisicing<br /> expedita laboriosam.
+                Lorem ipsum dolor sit <br />consectetur, adipisicing elit. Soluta, <br />
+                iure. Molestias quod porro molestiae<br /> quibusdam odit quaerat illo nihil.<br />
+                quibusdam odit quaerat illo nihil
                 </p>
-                <button>Lear more</button>
+                <button className="Body__btn">Lear more</button>
             </section>
-            <section>
-                <img src={risco}/>
+            <section className="Body__section">
+                <img src={risco} alt="Risco" className="Body__section-img"/>
             </section>
         </div>
     )

@@ -1,5 +1,4 @@
 .Body{
-    padding: 0;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -8,9 +7,26 @@
 }
 
 .Body__titulo{
-    font-size: 50px;
+    font-size: 300%;
+    margin-right: 10px;
 }
 
 .Body__parrafo{
-    font-size: 17px;
+    font-size: 110%;
+    
+}
+.Body__info{
+    padding-left: 1%;
+    background-color: #fff;
+    height: max-content;
+}
+.Body__section-img{
+    width: 100%;
+}
+.Body__btn{
+    border-radius: 18px;
+    padding: 7px;
+    border: none;
+    margin-bottom: 9.3%;
+    background-color: #c6ce00;
 }

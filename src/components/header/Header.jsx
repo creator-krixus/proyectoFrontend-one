@@ -1,5 +1,7 @@
 import React from 'react';
 import './Header.css';
+import Body from '../../components/body/Body'
+import Cards from '../../components/cards/Cards';
 
 export default function Header() {
     return (
@@ -15,6 +17,8 @@ export default function Header() {
             <p className="Header__textos">Your next favorite<br />destination.</p>
             <p className="Header__textos-describe">Get the best out of a trip to Bali</p>
             <button className="Header__btn">Book a Trip</button>
+            <Body /> 
+            <Cards />
         </div>
     )
 }
