@@ -2,6 +2,7 @@ import React from 'react';
 import './Header.css';
 import Body from '../../components/body/Body'
 import Cards from '../../components/cards/Cards';
+import Footer from '../footer/Footer';
 
 export default function Header() {
     return (
@@ -19,6 +20,7 @@ export default function Header() {
             <button className="Header__btn">Book a Trip</button>
             <Body /> 
             <Cards />
+            <Footer />
         </div>
     )
 }
