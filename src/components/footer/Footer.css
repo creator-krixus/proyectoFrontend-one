@@ -4,14 +4,13 @@
     flex-direction: row;
     flex-wrap: wrap;
     background-color: #ffffbf;
+    height: max-content;
 }
 
 .Footer__hotel{
     width: 100%;
 }
-.Footer__texto{
-    padding: 0;
-}
+
 .Footer__texto-titulo{
     font-size: 300%;
     margin-left: 7%;

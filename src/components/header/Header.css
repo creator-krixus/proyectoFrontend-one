@@ -17,6 +17,7 @@
 .Header__lista{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: flex-end;
     margin-right: 5%;
 }

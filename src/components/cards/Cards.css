@@ -4,10 +4,22 @@
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
-
+.Card__Fontawesome{
+    margin-left: 45%;
+}
+.Card__titulo{
+    margin-left: 36%; 
+}
+.Card__titulo-two{
+    margin-left: 26%; 
+}
+.Card__titulo-three {
+    margin-left: 26%; 
+}
 .one{
     margin-top: 50%;
     width: 150px;
-    height: 150px;
+    height: 100px;
     border: solid 1px;
+    padding-top: 30%;
 }
