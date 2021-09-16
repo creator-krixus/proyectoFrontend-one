@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 .Header{
     height: 600px;
     background: url('../../images/playa.png');
