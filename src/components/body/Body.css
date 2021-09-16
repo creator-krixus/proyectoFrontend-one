@@ -19,6 +19,7 @@
     padding-left: 2%;
     background-color: #fff;
     height: max-content;
+    
 }
 .Body__section-img{
     width: 100%;
@@ -27,6 +28,7 @@
     border-radius: 18px;
     padding: 7px;
     border: none;
+    margin-top: 9%;
     margin-bottom: 9.3%;
     background-color: #c6ce00;
 }
